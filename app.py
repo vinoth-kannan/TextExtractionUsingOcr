@@ -162,7 +162,7 @@ def detectimage(inp):
         inparr=np.array(inp)
         withouttable(inparr)
 
-
+st.set_page_config(page_title="OCR Text Extraction App")
 st.title("Text Extraction from Medical Laboratory report images")
 ctn=0
 with st.sidebar:
