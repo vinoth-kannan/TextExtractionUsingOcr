@@ -81,7 +81,7 @@ def withtable(img):
         st.write(df)
         st.toast("Text Extraction Process Succes")
     except Exception:
-        st.subheader("It seems that the image you provided doesn't have any tables")
+        st.error("It seems that the image you provided doesn't have any tables")
         st.toast("Text Extraction Process failed")
 
 def withouttable(img):
@@ -149,7 +149,7 @@ def withouttable(img):
         st.write(df)
         st.toast("Successfully completed  Text Extraction Process")
     except Exception:
-        st.subheader("It seems that the image you provided may have tables")
+        st.error("It seems that the image you provided may have tables")
         st.toast("Text Extraction Process failed")
 
 
