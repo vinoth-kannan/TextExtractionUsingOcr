@@ -173,7 +173,7 @@ with st.sidebar:
     "\n"
     if inp_file_sidebar is not None:
         st.image(inp_file_sidebar,"↑ - original image - ↑",clamp=True, channels='BGR')
-        type_det=st.radio("choose image type",options=['image with clear and visible table','image without clear and visible table'])
+        type_det=st.radio("choose image type",options=['image with clear and visible table',"image without clear and visible table"])
         detbtn=st.button("Analyze")
         if(inp_file_sidebar and detbtn):
             ctn=1
