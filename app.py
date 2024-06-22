@@ -165,7 +165,7 @@ def detectimage(inp):
         withouttable(inparr)
 
 st.set_page_config(page_title="OCR Text Extraction App")
-st.title("Text Extraction from Medical Laboratory report images")
+st.title("Test Results Extraction from Medical Laboratory report images")
 ctn=0
 with st.sidebar:
     inp_file_sidebar=st.file_uploader("choose a report image",type=['png','jpg','jpeg','webp'],accept_multiple_files=False)
