@@ -160,7 +160,7 @@ def detectimage(inp):
         inparr=np.array(inp)
         withtable(inparr)
 
-    elif(detbtn and type_det=="image with invisible table"):
+    elif(detbtn and type_det=="image without clear and visible table"):
         inparr=np.array(inp)
         withouttable(inparr)
 
