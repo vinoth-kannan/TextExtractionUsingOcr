@@ -80,7 +80,7 @@ def withtable(img):
         st.write("↓ - output DataFrame - ↓")
         st.write(df)
         st.toast("Successfully completed  Text Extraction Process")
-        st.success('This is a success message!', icon="✅")
+        st.success('Successfully completed Text Extracytion Process', icon="✅")
     except Exception:
         st.error("It seems that the image you provided doesn't have any tables",icon="🚨")
         st.toast("Text Extraction Process failed")
@@ -149,7 +149,7 @@ def withouttable(img):
         st.write("↓ - Output DataFrame - ↓")
         st.write(df)
         st.toast("Successfully completed  Text Extraction Process")
-        st.success('This is a success message!', icon="✅")
+        st.success('Successfully completed Text Extraction Process', icon="✅")
     except Exception:
         st.error("It seems that the image you provided may have tables",icon="🚨")
         st.toast("Text Extraction Process failed")
