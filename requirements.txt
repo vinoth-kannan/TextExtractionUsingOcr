@@ -4,3 +4,4 @@ pandas==2.2.2
 numpy==1.26.4
 opencv-python-headless
 easyocr==1.7.1
+python-bidi==0.4.2
