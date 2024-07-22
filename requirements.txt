@@ -5,3 +5,4 @@ numpy
 opencv-python
 easyocr
 libgl1
+python==3.12
